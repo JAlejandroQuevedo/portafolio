@@ -177,6 +177,10 @@ img {
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-white);
 }
+.projects-section-header-pages{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 @media (max-width: 28.75em) {
   .projects-section-header {
