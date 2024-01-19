@@ -290,6 +290,24 @@ a.more-link {
     font-size: 4rem;
   }
 }
+/* Projects section */
+.projects-section {
+  text-align: center;
+  padding: 10rem 2rem;
+  background: var(--main-blue);
+}
+
+.projects-section-header {
+  max-width: 640px;
+  margin: 0 auto 6rem auto;
+  border-bottom: 0.2rem solid var(--main-white);
+}
+
+.projects-section-header-pages {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* "Automagic" image grid using no media queries */
 .projects-grid {
   display: grid;
