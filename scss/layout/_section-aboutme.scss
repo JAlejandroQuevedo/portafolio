@@ -1,8 +1,8 @@
 .aboutme{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    align-items: flex-start;
+    width: 99%;
     height: 69.25rem;
     background-color: $blanco-50;
 }
@@ -94,4 +94,13 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.container-image{
+    width: 31.25rem;
+    height: 56.25rem;
+}
+.container-image img{
+    width: 100%;
+    height: 100%
+    ;
 }

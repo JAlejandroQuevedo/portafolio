@@ -1,5 +1,9 @@
+$color-black-100: map-get($colors,negro-100);
 $color-black: map-get($colors, negro-200);
+$color-black-300: map-get($colors, negro-300 );
 $color-black-400: map-get($colors, negro-400);
 $amarillo-100: map-get($colors, amarillo-oscuro-100);
 $amarillo-200: map-get($colors, amarillo-oscuro-200);
+$amarillo-400: map-get($colors, amarillo-oscuro-400);
 $blanco-50: map-get($colors, blanco-50);
+$blanco-100: map-get($colors, blanco-100);

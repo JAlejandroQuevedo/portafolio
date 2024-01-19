@@ -1,0 +1,26 @@
+footer {
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    @include back-degradado;
+    border-top: 4px solid $amarillo-200;
+    @include poppins;
+  }
+  
+  footer > p {
+    margin: 2rem;
+  }
+  footer p a{
+    color: $color-black-400;
+  }
+  footer i {
+    vertical-align: middle;
+  }
+  
+  @media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+  }

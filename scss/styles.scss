@@ -12,10 +12,12 @@
 @import "./layout/header";
 @import "./layout/footer";
 @import "./layout/section-aboutme";
+@import "./layout/contact";
 
 //Components
 @import "./components/error404";
 @import "./components/cards";
+@import "./components/button-cards";
 
 //Media
 @import "./layout/media/320";
