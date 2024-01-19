@@ -1,0 +1,21 @@
+//Background
+@mixin back-degradado{
+    background: linear-gradient(180deg, #C8C9CE 0%, #C8C9CE 100%, rgba(200, 201, 206, 0.00) 100%, #F0F0F0 100%);
+}
+
+//Tipografia
+//Popins
+@mixin poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+//Abhaya Libre
+
+@mixin abhaya{
+    font-family: 'Abhaya Libre', serif;
+}
+
+//Nunito
+@mixin nunito{
+    font-family: 'Nunito', sans-serif;
+}
