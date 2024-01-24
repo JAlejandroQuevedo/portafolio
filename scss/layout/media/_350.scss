@@ -1,5 +1,50 @@
 @media only screen and (min-width: 350px) and (max-width:549px){
-    body{
-        background-color: red;
+    .nav{
+        display: none;
+    }
+    .hi{
+        font-size: 50px;
+    }
+    .im{
+        font-size: 60px;
+    }
+    .name{
+        font-size: 60px;
+    }
+    .rol{
+        width: 300px;
+    }
+    .rol h2{
+        font-size: 17px;
+    }
+    .descripcion-corta{
+        width: 300px;
+    }
+    .descripcion-corta p{
+        font-size: 18px;
+    }
+    .image{
+        display: none;
+    }
+    .contact-section{
+        height: fit-content;
+    }
+    .none-button{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .none-button a{
+        width: 150px;
+    }
+    .contact-section-header > h2{
+        font-size: 50px;
+    }
+    .contact-section-header p{
+        margin-top: 20px;
+        font-size: 20px ;
+    }
+    .contact-links a{
+        font-size: 25px;
     }
 }

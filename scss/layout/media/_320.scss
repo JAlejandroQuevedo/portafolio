@@ -1,0 +1,41 @@
+
+@media only screen and (min-width: 1000px) and (max-width:1400px){
+    .aboutme{
+        width: 80%;
+        height: fit-content;
+    }
+    .hi{
+        font-size: 90px;
+    }
+    .im{
+        font-size: 100px;
+    }
+    .name{
+        font-size: 100px;
+    }
+    .rol{
+        width: fit-content;
+    }
+    .rol h2{
+        font-size: 28px;
+    }
+    .descripcion-corta{
+        width: 37.5625rem;
+    }
+    .textos-button{
+        width: 100%;
+    }
+    .image{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .container-image{
+        width:  450px;
+        height: 700px;
+        margin-left: 20px;
+    }
+    .container-image img{
+        width: 100%;
+    }
+}

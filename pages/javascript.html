@@ -2,20 +2,22 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portafolio donde se muestran mis habilidades">
     <meta name="keywords" content="HTML, CSS, Figma">
-    <meta name="description" content="Sitio web dedicado a mi portafolio como adicion a mi CV">
+    <meta name="description" content="Sitio web dedicado a mi portafolio como adición a mi CV">
     <meta name="author" content="JAlejandro Quevedo">
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Mi portafolio">
     <meta property="og:image" content=""> <!--Pendiente de hacer-->
-    <title>JavaScript</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../assets/image/ico-2.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <title>JavaScript</title>
 </head>
 
 <body>
@@ -33,15 +35,18 @@
         </ul>
     </nav>
     <section id="projects" class="projects-section">
+        <div class="buttonBack none-button">
+            <a href="../index.html" class="btn btn-show-all">Regresar<i class="fas fa-chevron-right"></i></a>
+        </div>
         <h2 class="projects-section-header">Proyectos
         </h2>
-    
+
         <div class="projects-grid">
-            <a href="https://jalejandroquevedo.github.io/phoneValitator/" class="project project-tile">
-                <img class="project-image" src="../assets/image/verifynumber.png" alt="JavaScript">
+            <a href="https://jalejandroquevedo.github.io/musicPlayer/" class="project project-tile">
+                <img class="project-image" src="../assets/image/musica-reproductor.png" alt="JavaScript">
                 <p class="project-title">
                     <span class="code">&lt;</span>
-                    Verificador de números
+                    Reproductor de música
                     <span class="code">/&gt;</span>
                 </p>
             </a>
@@ -53,22 +58,6 @@
                     <span class="code">/&gt;</span>
                 </p>
             </a>
-            <a href="https://jalejandroquevedo.github.io/caloryAccounter/" class="project project-tile">
-                <img class="project-image" src="../assets/image/calorie.png" alt="JavaScript">
-                <p class="project-title">
-                    <span class="code">&lt;</span>
-                    Contador de calorías
-                    <span class="code">/&gt;</span>
-                </p>
-            </a>
-            <a href="https://jalejandroquevedo.github.io/cashRegister/" class="project project-tile">
-                <img class="project-image" src="../assets/image/cash.png" alt="JavaScript">
-                <p class="project-title">
-                    <span class="code">&lt;</span>
-                    Caja registradora
-                    <span class="code">/&gt;</span>
-                </p>
-            </a>
             <a href="https://jalejandroquevedo.github.io/palindromeChecker/" class="project project-tile">
                 <img class="project-image" src="../assets/image/palondrom.png" alt="JavaScript">
                 <p class="project-title">
@@ -77,7 +66,31 @@
                     <span class="code">/&gt;</span>
                 </p>
             </a>
-            <a href="https://jalejandroquevedo.github.io/romanConverter/" class="project project-tile">
+            <a href="https://jalejandroquevedo.github.io/phoneValitator/" class="project project-tile card">
+                <img class="project-image" src="../assets/image/verifynumber.png" alt="JavaScript">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Verificador de números
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="https://jalejandroquevedo.github.io/caloryAccounter/" class="project project-tile card">
+                <img class="project-image" src="../assets/image/calorie.png" alt="JavaScript">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Contador de calorías
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="https://jalejandroquevedo.github.io/cashRegister/" class="project project-tile card">
+                <img class="project-image" src="../assets/image/cash.png" alt="JavaScript">
+                <p class="project-title">
+                    <span class="code">&lt;</span>
+                    Caja registradora
+                    <span class="code">/&gt;</span>
+                </p>
+            </a>
+            <a href="https://jalejandroquevedo.github.io/romanConverter/" class="project project-tile card">
                 <img class="project-image" src="../assets/image/romanNumber.png" alt="JavaScript">
                 <p class="project-title">
                     <span class="code">&lt;</span>
@@ -85,18 +98,10 @@
                     <span class="code">/&gt;</span>
                 </p>
             </a>
-            <a href="https://jalejandroquevedo.github.io/musicPlayer/" class="project project-tile">
-                <img class="project-image" src="../assets/image/musica-reproductor.png" alt="JavaScript">
-                <p class="project-title">
-                    <span class="code">&lt;</span>
-                    Reproductor de música
-                    <span class="code">/&gt;</span>
-                </p>
-            </a>
         </div>
-    
-        <a href="https://github.com/JAlejandroQuevedo" class="btn btn-show-all">Mostrar todo<i
-            class="fas fa-chevron-right"></i></a>
+
+        <button class="btn btn-show-all" id="show-all">Mostrar todo<i class="fas fa-chevron-right"></i></button>
+        <button class="btn btn-show-all" id="show-less">Mostrar menos<i class="fas fa-chevron-right"></i></button>
     </section>
     <section id="contact" class="contact-section">
         <div class="contact-section-header">
@@ -121,6 +126,7 @@
             <a href="mailto:alejandro_ya23@hotmail.com" target="_blank">Jesús Quevedo Cabrera </a>
         </p>
     </footer>
+    <script src="../js/index.js"></script>
 </body>
 
 </html>
