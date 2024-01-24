@@ -1,0 +1,9 @@
+.button button a{
+    text-decoration: none;
+    color: $color-black-400;
+}
+
+.button button:hover {
+    width: fit-content;
+    border: .0625rem solid $color-black-400;
+}
